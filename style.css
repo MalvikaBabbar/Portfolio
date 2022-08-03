@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+.about{
+    text-align: center;
+    
+    
+}
+.about-img{
+    margin: auto;
+    display: block;
+    margin-top: 3rem;
+    animation: fadeInLeft 3s;
+    
+}
+@keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       transform: translateY(-100px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+ }   
+ #contact-icon {
+    
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+#edc{
+    margin-top: 15rem;
+}
+#crd{
+    margin-top: 4rem;
+}
+#skl{
+    margin-top: 10rem;
+    
+}
+.skill-body{
+    margin-top: 5rem;
+    margin: auto;
+}
+
+
+#footer {
+    color: white;
+    background-color: black;
+    font-family: var(--font);
+    padding: 2em;
+    margin-top: 15rem;
+}
+#follow{
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#follow-links {
+    padding: 0px 30px;
+    width: 15%;
+    margin-top: 0.5rem;
+    display: flex;
+    
+}
+#copyright{
+   text-align: center;
+   color: gray;
+}
